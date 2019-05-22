@@ -3,6 +3,7 @@ version: 1
 kind: experiment
 
 build:
+  backend: kaniko
   image: tensorflow/tensorflow:1.4.1-py3
   build_steps:
     - pip3 install polyaxon-client
